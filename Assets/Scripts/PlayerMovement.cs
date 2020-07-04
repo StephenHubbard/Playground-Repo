@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     private Vector2 moveDirection;
     public Animator animator;
-
+    private bool isWalking = false;
 
     // Update is called once per frame
     void Update()
